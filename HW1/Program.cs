@@ -5,15 +5,15 @@ a = -9 b = -3 -> max = -3
 */
 System.Console.Write("Введите первое число > ");
 string number1 = Console.ReadLine();
-int a = Convert.ToInt32(number1);
+int num1 = Convert.ToInt32(number1);
 System.Console.Write("Введите второе число > ");
 string number2 = Console.ReadLine();
-int b = Convert.ToInt32(number2);
-if (a > b)
+int num2 = Convert.ToInt32(number2);
+if (num1 > num2)
 {
-   System.Console.WriteLine($"Первое число {a} максимальное");
+   System.Console.WriteLine($"Первое число {num1} максимальное");
 }
 else
 {
-    System.Console.WriteLine($"Второе число {b} максимальное");
+    System.Console.WriteLine($"Второе число {num2} максимальное");
 }
