@@ -9,7 +9,6 @@ int a = Convert.ToInt32(number1);
 System.Console.Write("Введите второе число > ");
 string number2 = Console.ReadLine();
 int b = Convert.ToInt32(number2);
-int max = 0;
 if (a > b)
 {
    System.Console.WriteLine($"Первое число {a} максимальное");
